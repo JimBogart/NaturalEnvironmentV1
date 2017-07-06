@@ -196,7 +196,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.382156e-13, y: 0}
+  m_AnchoredPosition: {x: -1.382156e-13, y: -0.15}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264133610
@@ -288,6 +288,11 @@ Prefab:
         type: 2}
       propertyPath: m_HDR
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000014105541304, guid: 212ca54c4742f0741a3378c799622d78,
+        type: 2}
+      propertyPath: m_ClearFlags
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 212ca54c4742f0741a3378c799622d78, type: 2}
@@ -383,7 +388,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -10.4}
+  m_AnchoredPosition: {x: 0, y: -8.810069}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &727674341
@@ -463,7 +468,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1709853641}
-        m_MethodName: rightClick
+        m_MethodName: frontHeavyRotate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -666,7 +671,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -10.4}
+  m_AnchoredPosition: {x: 0, y: -8.73}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &904831422
@@ -834,6 +839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 1857520918}
+  xRotation: 25
+  yRotation: 0
 --- !u!4 &1709853642
 Transform:
   m_ObjectHideFlags: 0
@@ -897,6 +904,10 @@ Prefab:
     - target: {fileID: 400060, guid: 1f0124cfb0d56a3498a0dafb9a7b0dc6, type: 2}
       propertyPath: m_LocalPosition.z
       value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 1f0124cfb0d56a3498a0dafb9a7b0dc6, type: 2}
+      propertyPath: m_PlayAutomatically
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f0124cfb0d56a3498a0dafb9a7b0dc6, type: 2}
@@ -982,7 +993,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1709853641}
-        m_MethodName: rightClick
+        m_MethodName: tailHeavyRotate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
