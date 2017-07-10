@@ -27,21 +27,27 @@ public class LevelManager : MonoBehaviour {
 
     }
 
-    public void loadSkullDetailScene()
+    public void loadScene3()
     {
 
         SceneManager.LoadScene(3);
     }
 
-    public void loadEyeDetailScene()
+    public void loadScene1()
     {
 
         SceneManager.LoadScene(1);
     }
 
-    public void loadNostrilDetailScene()
+    public void loadScene2()
     {
 
         SceneManager.LoadScene(2);
+    }
+
+    public void loadScene4()
+    {
+
+        SceneManager.LoadScene(4);
     }
 }

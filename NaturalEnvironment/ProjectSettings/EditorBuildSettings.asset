@@ -25,3 +25,5 @@ EditorBuildSettings:
     path: Assets/AllosaurusWalkV1.unity
   - enabled: 1
     path: Assets/WhereWasIfrom.unity
+  - enabled: 1
+    path: Assets/AllosaurusSkullWithEyes.unity

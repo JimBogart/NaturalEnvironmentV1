@@ -6,7 +6,10 @@ public class Walk : MonoBehaviour {
     public GameObject model;
     public float walkSpeed;
     public float steps = 0;
+    public float count = 0;
+    public float timeToChangeAnimation;
     public float distanceToWalk;
+    public string chosenAnimation;
 
 
     // Use this for initialization
@@ -27,8 +30,26 @@ public class Walk : MonoBehaviour {
    else
         {
 
-            model.GetComponent<Animation>().Play("Allosaurus_Idle");
-        
+            if (count <= timeToChangeAnimation)
+            {
+
+                count++;
+                model.GetComponent<Animation>().Play("Allosaurus_Idle");
+            }
+
+            else if(count > 800)
+            {
+
+                count = 0;
+            }
+
+            else
+            {
+
+                count++;
+                model.GetComponent<Animation>().Play(chosenAnimation);
+
+            }
 
         }
 

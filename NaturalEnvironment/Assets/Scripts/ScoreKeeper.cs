@@ -8,7 +8,8 @@ public class ScoreKeeper : MonoBehaviour
     public Text VrInfo;
     public int count;
     public int displayTime;
-
+    public string correct;
+    public string incorrect;
 
     // Update is called once per frame
     void Update()
@@ -28,8 +29,8 @@ public class ScoreKeeper : MonoBehaviour
 
     public void correctGuessMontana()
     {
-        
-        VrInfo.text = "Correct! Allosaurus fossils\n have been found\n in Montana.";
+
+        VrInfo.text = correct;
 
     }
 
@@ -37,7 +38,7 @@ public class ScoreKeeper : MonoBehaviour
     public void correctGuessPortugal()
     {
 
-        VrInfo.text = "Correct! Allosaurus fossils\n have been found\n in Portugal.";
+        VrInfo.text = correct;
 
 
 
@@ -46,7 +47,7 @@ public class ScoreKeeper : MonoBehaviour
     public void incorrectGuess()
     {
 
-        VrInfo.text = "Nope not there! Try again! ";
+        VrInfo.text = incorrect;
 
     }
 }

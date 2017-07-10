@@ -131,8 +131,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: 955710ac48fa0b440b4bb43b730022fd, type: 2}
       propertyPath: m_PlayAutomatically
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 955710ac48fa0b440b4bb43b730022fd, type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: a887ba76b095e73408f5193e001769c4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 955710ac48fa0b440b4bb43b730022fd, type: 2}
   m_IsPrefabParent: 0
