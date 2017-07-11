@@ -5,15 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/TestScene.unity
   - enabled: 0
     path: Assets/RoaryModel.unity
   - enabled: 0
     path: Assets/ExhibitRemake.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/AllosaurusModelExhibitDemo.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/AllosaurusSkullExhibitDemo.unity
   - enabled: 0
     path: Assets/SkullDetailV1.unity
@@ -23,7 +23,13 @@ EditorBuildSettings:
     path: Assets/NasalCavityScene.unity
   - enabled: 0
     path: Assets/AllosaurusWalkV1.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/WhereWasIfrom.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/AllosaurusSkullWithEyes.unity
+  - enabled: 1
+    path: Assets/01_TitleScreen.unity
+  - enabled: 1
+    path: Assets/02_OpeningScene.unity
+  - enabled: 1
+    path: Assets/03_Childscene.unity
