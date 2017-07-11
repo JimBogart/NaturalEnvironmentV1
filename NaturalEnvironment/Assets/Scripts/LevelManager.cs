@@ -50,4 +50,12 @@ public class LevelManager : MonoBehaviour {
 
         SceneManager.LoadScene(4);
     }
+
+    public void loadScene5()
+    {
+
+        SceneManager.LoadScene(5);
+    }
+
+
 }
