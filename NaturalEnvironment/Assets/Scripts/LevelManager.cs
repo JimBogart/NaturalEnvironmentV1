@@ -58,4 +58,27 @@ public class LevelManager : MonoBehaviour {
     }
 
 
+    public void nextScene()
+    {
+
+        int y = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(y + 1);
+    }
+
+    public void loadScene6()
+    {
+
+        SceneManager.LoadScene(6);
+    }
+
+    public void backScene()
+    {
+
+        int y = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(y - 1);
+    }
+
+
 }

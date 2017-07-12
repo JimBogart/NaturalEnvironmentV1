@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/04_SkeletonInfo.unity
+- path: Assets/07_AllosaurusSkullWithEyes.unity
   isLoaded: 1
   isActive: 1

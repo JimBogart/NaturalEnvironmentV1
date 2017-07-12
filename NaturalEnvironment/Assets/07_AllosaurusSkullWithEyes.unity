@@ -499,7 +499,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 638580662}
-        m_MethodName: loadMainScene
+        m_MethodName: loadScene3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -694,7 +694,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012758179178, guid: 23f4cb2780e1aae41b7dce4315177950, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.78
       objectReference: {fileID: 0}
     - target: {fileID: 4000012758179178, guid: 23f4cb2780e1aae41b7dce4315177950, type: 2}
       propertyPath: m_LocalPosition.y

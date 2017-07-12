@@ -735,8 +735,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "This Allosaurus lived around 155 million years ago. He\nlived until he
-    was a teenager. Have a look around, then \nclick the next button to learn more."
+  m_Text: "This Allosaurus lived around 155 million years ago. \nHe lived until he
+    was a teenager. Have a look around, \nthen click the next button to learn more."
 --- !u!222 &1250995438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 347631599}
-        m_MethodName: loadScene2
+        m_MethodName: loadMainScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1319,7 +1319,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.18, y: -13.01}
+  m_AnchoredPosition: {x: -2.18, y: -12}
   m_SizeDelta: {x: 820, y: 347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2059950854

@@ -37,3 +37,7 @@ EditorBuildSettings:
     path: Assets/04_SkeletonInfo.unity
   - enabled: 1
     path: Assets/05_SkullScene.unity
+  - enabled: 1
+    path: Assets/06_AllosaurusModel.unity
+  - enabled: 1
+    path: Assets/07_AllosaurusSkullWithEyes.unity

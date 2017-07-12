@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.63028353, g: 0.6304687, b: 0.62915623, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 347631599}
-        m_MethodName: loadScene3
+        m_MethodName: loadScene5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - 114: {fileID: 131716678}
   - 114: {fileID: 131716677}
   m_Layer: 5
-  m_Name: UpCloseButton (1)
+  m_Name: SkullButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 347631599}
-        m_MethodName: loadScene4
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -489,7 +489,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253301609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 26.52}
+  m_LocalPosition: {x: 0, y: 0, z: -0.8}
   m_LocalScale: {x: 0.007992181, y: 0.0139545, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -498,7 +498,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.07, y: -12.8}
+  m_AnchoredPosition: {x: 41.2, y: -10.3}
   m_SizeDelta: {x: 820, y: 347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &347631598
@@ -621,17 +621,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 348533496}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 31.2}
+  m_LocalRotation: {x: 0, y: 0.8660254, z: -0, w: -0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 4.3}
   m_LocalScale: {x: 0.007992181, y: 0.0139545, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 240, z: 0}
   m_Children:
   - {fileID: 1289244865}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.15, y: -12.8}
+  m_AnchoredPosition: {x: 29.5, y: -10.38}
   m_SizeDelta: {x: 820, y: 347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &479521961
@@ -917,7 +917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '>  >  >  >'
+  m_Text: <  <  <  <
 --- !u!222 &757864549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1436,7 +1436,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1605992191}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 31.2}
+  m_LocalPosition: {x: 0, y: 0, z: 4.22}
   m_LocalScale: {x: 0.007992181, y: 0.0139545, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children:
@@ -1445,7 +1445,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -6.48, y: -12.8}
+  m_AnchoredPosition: {x: 51, y: -10.72}
   m_SizeDelta: {x: 820, y: 347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1852997506
@@ -1515,7 +1515,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Examine the Skull
+  m_Text: Click to examine the skull
 --- !u!222 &1852997509
 CanvasRenderer:
   m_ObjectHideFlags: 0
