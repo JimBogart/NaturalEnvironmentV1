@@ -41,3 +41,5 @@ EditorBuildSettings:
     path: Assets/06_AllosaurusModel.unity
   - enabled: 1
     path: Assets/07_AllosaurusSkullWithEyes.unity
+  - enabled: 1
+    path: Assets/08_BadFootInfoScene.unity

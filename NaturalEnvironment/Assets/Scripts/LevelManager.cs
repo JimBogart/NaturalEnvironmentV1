@@ -72,6 +72,22 @@ public class LevelManager : MonoBehaviour {
         SceneManager.LoadScene(6);
     }
 
+
+    public void loadScene7()
+    {
+
+        SceneManager.LoadScene(7);
+    }
+
+
+
+    public void loadScene8()
+    {
+
+        SceneManager.LoadScene(8);
+    }
+
+
     public void backScene()
     {
 
